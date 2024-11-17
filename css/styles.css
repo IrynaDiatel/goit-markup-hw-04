@@ -462,20 +462,17 @@ img {
 .page-footer {
   background-color: #2e2f42;
   padding: 100px 0 100px;
+  display: flex;
+  align-items: baseline;
+  margin-right: 120px;
 }
 
 .footer-container {
-  display: flex;
-  align-items: baseline;
-}
-
-.footer-style {
   display: block;
   align-items: flex-start;
   flex-direction: column;
-  gap: 16px;
-  margin-right: 120px;
 }
+
 .footer-logo .logo-part {
   color: #f4f4fd;
   display: inline-block;
@@ -506,6 +503,7 @@ img {
 
 .social-container {
   display: block;
+  gap: 16px;
 }
 .footer-social-media {
   font-weight: 500;
