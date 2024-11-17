@@ -314,15 +314,12 @@ img {
 
 .svg-list-container {
   padding: 32px 0 32px;
-  display: flex;
   gap: 24px;
 }
 
 .svg-list {
   display: flex;
-  align-items: center;
   justify-content: center;
-  flex-direction: row;
   gap: 24px;
 }
 
