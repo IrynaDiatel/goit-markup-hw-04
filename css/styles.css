@@ -468,14 +468,11 @@ img {
   align-items: flex-start;
   flex-wrap: wrap;
   gap: 40px;
+  align-items: baseline;
 }
 .footer-container {
   display: flex;
   flex-direction: column;
-
-  margin-top: 100px;
-  margin-bottom: 100px;
-  margin-left: 171px;
   margin-right: 120px;
 }
 
@@ -505,9 +502,6 @@ img {
   gap: 16px;
   width: 264px;
   height: 112px;
-  margin-top: 100px;
-  margin-bottom: 132px;
-  margin-right: 707px;
 }
 
 .footer-social-media {
