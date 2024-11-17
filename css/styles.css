@@ -406,10 +406,9 @@ img {
 
 .img-portfolio {
   position: relative;
+  overflow: hidden;
 }
-.img {
-  transform: translateY(0%);
-}
+
 .overlay-content {
   position: absolute;
   top: 0;
@@ -432,6 +431,7 @@ img {
 
 .our-portfolio-item:hover .overlay {
   opacity: 1;
+  transform: translateY(0);
 }
 .our-portfolio-container {
   padding: 32px 16px;
